@@ -1,0 +1,44 @@
+.Service{
+  background: rgba(255,255,255,0.6);
+  width: 595px;
+  height: 150px;
+  border: 1px solid #ebebeb;
+  float: left;
+  margin: 0 0 10px 5px;
+}
+.Service:after{
+  display: block;
+  content: "";
+  clear: both;
+}
+.Service .img{
+  float: left;
+  width: 106px;
+  height: 106px;
+  margin: 21px 32px 0 52px;
+}
+.Service .ct{
+  float: left;
+  width: 400px;
+  line-height: 20px;
+}
+.Service .ct dt{
+  margin-top: 40px;
+}
+.Service .ct dd{
+  margin-top: 24px;
+}
+.Service .ct dd a{
+  margin-right: 30px;
+  color: #999;
+  font-size: 14px;
+}
+.Service:hover{
+  background: white;
+}
+.Service dt a:hover{
+  color: #5fc1f4;
+}
+.Service dd a:hover{
+  color: #5fc1f4;
+}

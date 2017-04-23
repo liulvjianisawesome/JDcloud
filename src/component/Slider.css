@@ -1,0 +1,89 @@
+.Slider{
+  height: 500px;
+}
+.Slider .center-content{
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.Slider .left-area{
+  width: 440px;
+  height: 150px;
+  position: absolute;
+  z-index: 10;
+  top: 170px;
+  left: 0px;
+  color: white;
+  animation: right-to-left 0.6s ease-in-out
+}
+.Slider .left-area h1{
+  font-size: 44px;
+}
+.Slider .left-area p{
+  font-size: 20px;
+  line-height: 50PX;
+}
+.Slider .left-area span{
+  display: inline-block;
+  text-align: center;
+  width: 118px;
+  height: 34px;
+  line-height: 34px;
+  font-size: 16px;
+  color: #fff;
+  border: 1px solid #fff;
+}
+.Slider .left-area span:hover{
+  background: #fff;
+  color: #1A284E;
+}
+.Slider .right-area{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+  z-index: 1
+}
+.Slider .right-area .center-box{
+  position: absolute;
+  top: 0;
+  right: 0;
+  animation: bottom-to-top 0.9s ease-in-out
+}
+.Slider .right-area .img-box {
+  position: absolute;
+  top: 0;
+  right: -360px;
+}
+.Slider .right-area .slow{
+  animation: bottom-to-top 0.9s ease-in-out
+}
+.Slider .right-area .fast{
+  animation: bottom-to-top 0.6s cubic-bezier(0.4,0,.3,1) 0s normal none 1 running;
+}
+.Slider .slider-trigger{
+  width: 100%;
+  position: absolute;
+  z-index: 100;
+  top: 450px;
+  text-align: center;
+}
+.Slider .slider-trigger>a{
+  width: 34px;
+  height: 4px;
+  background: #356389;
+  display: inline-block;
+  margin-left: 5px;
+}
+.Slider .slider-trigger>a:hover{
+  background: white;
+}
+@keyframes bottom-to-top{
+  from {top: 100px}
+  to {top: 0}
+}
+@keyframes right-to-left{
+  from {left: 100px}
+  to {left: 0}
+}

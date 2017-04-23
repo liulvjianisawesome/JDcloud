@@ -1,0 +1,61 @@
+.shutter-right .left, .shutter-right .right{
+  color: white;
+  width: 240px;
+  height: 485px;
+  float: left;
+}
+.shutter-right .left{
+  background: #457EDD
+}
+.shutter-right .left .icon{
+  text-align: center;
+  margin-top: 90px;
+}
+.shutter-right .left i{
+  font-size: 70px;
+}
+.shutter-right .left h1{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.shutter-right .left p{
+  text-align: center;
+}
+.shutter-right .right{
+  background: #4B85E5
+}
+.shutter-right .right dl{
+  margin-left: 30px
+}
+.shutter-right .right dd{
+  font-size: 10px;
+}
+.shutter-right .right .items{
+  position: absolute;
+}
+.shutter-right .right dt{
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.shutter-right .right .btn{
+  margin-top: 10px;
+  font-size: 13px;
+  text-align: center;
+  line-height: 25px;
+  border: 1px solid white;
+  width: 70px;
+  height: 25px;
+}
+.shutter-right .right .btn:hover{
+  color: #4B85E5;
+  background: white;
+}
+@keyframes llj
+{
+  from {width: 0}
+  to {width: 240px}
+}
+.shutter-right .right{
+  animation: llj 0.5s
+}

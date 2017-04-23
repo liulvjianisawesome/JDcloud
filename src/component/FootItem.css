@@ -1,0 +1,20 @@
+.FootItem{
+  width: 20%;
+  height: 200px;
+  background: #212231;
+  padding-left: 20px;
+  float: left;
+  border-right: 1px solid #2d2e3c;
+}
+.FootItem .title{
+  font-size: 18px;
+  color: #fff;
+}
+.FootItem .item{
+  line-height: 30px;
+  font-size: 14px;
+  color: #5d5e66;
+}
+.FootItem .item:hover{
+  color: #448aff;
+}
